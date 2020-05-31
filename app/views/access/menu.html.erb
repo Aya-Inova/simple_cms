@@ -1,0 +1,12 @@
+
+<div>
+
+<ul> 
+<li> <%= link_to("Manage Subjects", subjects_path) %> </li>
+<li> <%= link_to("Manage Pages", subject_pages_path(:subject_id => 12)	) %> </li>
+<li> <%= link_to("Manage Sections", subject_page_sections_path(:subject_id=> 12, :page_id=>3)	) %> </li>
+<li> <%= link_to("Manage Admin Users", '#') %> </li>
+<li> <%= link_to("logout ", access_logout_path) %> </li>
+</ul>
+
+</div>
